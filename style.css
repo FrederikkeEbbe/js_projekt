@@ -56,6 +56,15 @@ align-items: center;
 font-size: 13px;
 }
 
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav > div {
+  margin-left: 20px;
+}
+
 /*Signe */
 
 h1 {
