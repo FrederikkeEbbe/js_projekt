@@ -48,13 +48,35 @@ height: 100%;
     font-weight: 500;
 }
 
-.knap1 {
-    display: inline-block;
-}
-
-.knapper {
+.knapbb, .knapta, .knapstor {
     height: 48px;
 }
+
+#knapperbox {
+    display: flex;
+    justify-content: space-around;
+}
+
+.knapbb, .knapta {
+    display: flex;
+    width: 47%;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.knapbb {
+    color: #FAC6DB;
+    background-color: #121212;
+}
+
+.knapta {
+    border: solid;
+    border-color: #121212;
+    color: #121212;
+}
+
+
 
 
 
