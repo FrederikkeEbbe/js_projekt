@@ -13,7 +13,8 @@ body{
 }
 
 h4 {
-    font-size: 28;
+    font-size: 28px;
+    padding: 20px 0px 0px;
 }
 
 button{
@@ -64,10 +65,6 @@ align-items: center;
 
 }
 
-.knapbb, .knapta, .knapstor {
-    height: 48px;
-}
-
 #knapperbox {
     display: flex;
     justify-content: space-around;
@@ -79,6 +76,8 @@ align-items: center;
     border-radius: 50px;
     align-items: center;
     justify-content: center;
+    height: 48px;
+    font-size: 12px;
 }
 
 .knapbb {
@@ -88,8 +87,23 @@ align-items: center;
 
 .knapta {
     border: solid;
+    border-width: thin;
+    border-radius: 50px;
     border-color: #121212;
-    color: #121212;
+}
+
+.knapstor {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    border: solid;
+    border-width: thin;
+    border-radius: 50px;
+    border-color: #121212;
+    margin-top: 20px;
+    font-size: 12px;
 }
 
 
@@ -101,3 +115,17 @@ align-items: center;
 
 
 /*Febbe*/
+footer {
+  background-color: #121212;
+  color: #FDFCF9;
+}
+footer * p {
+  font-size: 15px;
+}
+.sortbund {
+  padding: 30px;
+}
+.graabund {
+  background-color: #434343;
+  padding: 30px;
+}
