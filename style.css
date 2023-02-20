@@ -189,14 +189,14 @@ h3 {
   text-decoration: underline;
 }
 
-.aabning {
+.aabning, .telefon {
   margin-left: 20px;
   font-size: 16px;
   line-height: 25px;
   font-weight: 500;
 }
 
-.aabningstider {
+.aabningstider, .telefontider {
   font-size: 16px;
   text-align: end;
   line-height: 25px;
@@ -204,28 +204,7 @@ h3 {
   font-weight: 500;
 }
 
-.aabning-flex {
-  display: flex;
-  justify-content: space-between;
-  margin-right: 20px;
-}
-
-.telefon {
-  margin-left: 20px;
-  font-size: 16px;
-  line-height: 25px;
-  font-weight: 500;
-}
-
-.telefontider {
-  font-size: 16px;
-  text-align: end;
-  line-height: 25px;
-  letter-spacing: 2px;
-  font-weight: 500;
-}
-
-.telefon-flex {
+.aabning-flex, .telefon-flex {
   display: flex;
   justify-content: space-between;
   margin-right: 20px;
