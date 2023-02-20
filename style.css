@@ -132,7 +132,25 @@ h1 {
 
 
 /*Daniel*/
+.unleashtekst, .doughtekst{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 30%;
+}
 
+.doughtekst{
+  text-align: center;
+}
+.kursivtekst{
+  font-style: italic;
+}
+.overskrift{
+  text-align: center;
+}
+.h3{
+
+}
 
 
 /*Febbe*/
@@ -151,6 +169,7 @@ footer * p {
   background-color: #434343;
   padding: 30px;
 }
+
 .fodlink {
   color: #FDFCF9;
 }
@@ -163,7 +182,7 @@ footer * p {
 .spørgsmål-fod {
   font-size: 12px;
 }
-hr { 
+hr {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   margin-left: auto;
