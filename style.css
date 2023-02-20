@@ -1,11 +1,19 @@
-
+* {
+    margin: 0;
+}
 
 body{
+    display: flex;
+    flex-direction: column;
   background-color: #FAC6DB;
   color:  #434343;
   font-family: Coolvetica, sans-serif;
   font-weight: 300;
 
+}
+
+h4 {
+    font-size: 28;
 }
 
 button{
@@ -19,6 +27,7 @@ header {
     display: flex;
     height: 113px;
     flex-direction: column;
+    margin: 0px;
 }
 
 .headerTop {
