@@ -143,6 +143,7 @@ footer {
 footer * p {
   font-size: 15px;
   line-height: 25px;
+  letter-spacing: 1.5px;
 }
 .sortbund {
   padding: 30px;
@@ -162,11 +163,35 @@ footer * p {
 }
 .spørgsmål-fod {
   font-size: 12px;
+  opacity: 0.8;
 }
 hr { 
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 50px;
   border-width: 0.1px;
+  opacity: 0.5;
 } 
+.knapfoot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 6%;
+  height: 13px;
+  border: solid;
+  border-width: thin;
+  border-radius: 50px;
+  border-color: #FDFCF9;
+}
+
+.findos-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.højreallign * {
+  text-align: end;
+}
