@@ -179,6 +179,8 @@ footer * p {
 .graabund {
   background-color: #434343;
   padding: 30px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .fodlink {
@@ -195,11 +197,10 @@ footer * p {
   opacity: 0.8;
 }
 hr {
-  margin-top: 0.5em;
   margin-bottom: 0.5em;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
+  margin-top: 10px;
   border-width: 0.1px;
   opacity: 0.5;
 } 
@@ -207,7 +208,6 @@ hr {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: auto;
   width: 6%;
   height: 13px;
   border: solid;
@@ -216,7 +216,11 @@ hr {
   border-color: #FDFCF9;
 }
 
-.findos-flex {
+.nyhedsbrev {
+  font-size: 18px;
+}
+
+.findos-flex, .flex-nyhed {
   display: flex;
   justify-content: space-between;
 }
@@ -224,3 +228,4 @@ hr {
 .højreallign * {
   text-align: end;
 }
+
