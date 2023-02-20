@@ -1,6 +1,6 @@
 body{
   background-color: #FAC6DB;
-  color:  #434343;
+  color: #434343;
 }
 button{
   background-color: #121212;
@@ -16,7 +16,25 @@ button{
 
 
 /*Daniel*/
+.unleashtekst, .doughtekst{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 30%;
+}
 
+.doughtekst{
+  text-align: center;
+}
+.kursivtekst{
+  font-style: italic;
+}
+.overskrift{
+  text-align: center;
+}
+.h3{
+  
+}
 
 
 /*Febbe*/
