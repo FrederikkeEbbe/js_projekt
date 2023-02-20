@@ -136,7 +136,7 @@ h1 {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin: 0 30%;
+  margin: 0 35%;
 }
 
 .doughtekst{
@@ -148,8 +148,17 @@ h1 {
 .overskrift{
   text-align: center;
 }
-.h3{
-
+.overskrift h2{
+  font-size: 75px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.piz{
+  margin: 20px 0px;
+  font-size: 16px;
+}
+.unleashindertekst{
+  font-size: 16px;
 }
 
 
@@ -188,4 +197,4 @@ hr {
   margin-left: auto;
   margin-right: auto;
   border-width: 0.1px;
-} 
+}
