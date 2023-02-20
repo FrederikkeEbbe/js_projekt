@@ -26,10 +26,6 @@ header {
     line-height: 0px;
 }
 
-.knapbb, .knapta, .knapstor {
-    height: 48px;
-}
-
 #knapperbox {
     display: flex;
     justify-content: space-around;
@@ -41,6 +37,8 @@ header {
     border-radius: 50px;
     align-items: center;
     justify-content: center;
+    height: 48px;
+    font-size: 12px;
 }
 
 .knapbb {
@@ -50,8 +48,23 @@ header {
 
 .knapta {
     border: solid;
+    border-width: thin;
+    border-radius: 50px;
     border-color: #121212;
-    color: #121212;
+}
+
+.knapstor {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    border: solid;
+    border-width: thin;
+    border-radius: 50px;
+    border-color: #121212;
+    margin-top: 20px;
+    font-size: 12px;
 }
 
 
