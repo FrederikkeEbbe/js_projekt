@@ -1,7 +1,22 @@
-body{
-  background-color: #FAC6DB;
-  color: #434343;
+* {
+    margin: 0;
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+  background-color: #FAC6DB;
+  color:  #434343;
+  font-family: Coolvetica, sans-serif;
+  font-weight: 300;
+
+}
+
+h4 {
+    font-size: 28px;
+    padding: 20px 0px 0px;
+}
+
 button{
   background-color: #121212;
   color: #FDFCF9;
@@ -9,9 +24,86 @@ button{
 
 /* Asger */
 
+header {
+    display: flex;
+    height: 113px;
+    flex-direction: column;
+    margin: 0px;
+}
 
+.headerTop {
+    display: flex;
+    height: 67px;
+    width: 100%;
+}
+
+.headerBund {
+    display: flex;
+    justify-content: space-around;
+    height: 46px;
+    width: 100%;
+}
+
+.headerBund > div {
+width: 100%;
+height: 100%;
+    border-width: 0.2px;
+    border-color: black;
+    border-style: solid;
+}
 
 /*Signe */
+
+.titel {
+    font-family: Coolvetica, sans-serif;
+    font-size: 48px;
+    line-height: 0px;
+    font-weight: 500;
+
+}
+
+#knapperbox {
+    display: flex;
+    justify-content: space-around;
+}
+
+.knapbb, .knapta {
+    display: flex;
+    width: 47%;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    font-size: 12px;
+}
+
+.knapbb {
+    color: #FAC6DB;
+    background-color: #121212;
+}
+
+.knapta {
+    border: solid;
+    border-width: thin;
+    border-radius: 50px;
+    border-color: #121212;
+}
+
+.knapstor {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    border: solid;
+    border-width: thin;
+    border-radius: 50px;
+    border-color: #121212;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+
 
 
 
@@ -33,8 +125,22 @@ button{
   text-align: center;
 }
 .h3{
-  
+
 }
 
 
 /*Febbe*/
+footer {
+  background-color: #121212;
+  color: #FDFCF9;
+}
+footer * p {
+  font-size: 15px;
+}
+.sortbund {
+  padding: 30px;
+}
+.graabund {
+  background-color: #434343;
+  padding: 30px;
+}
