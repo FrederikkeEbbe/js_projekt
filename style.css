@@ -9,7 +9,14 @@ button{
 
 /* Asger */
 
+header {
+    display: flex;
+    height: 113px;
+}
 
+.headerTop {
+    height: 67px
+}
 
 /*Signe */
 
