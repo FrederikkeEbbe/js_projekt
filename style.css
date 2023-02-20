@@ -1,3 +1,5 @@
+
+
 body{
   background-color: #FAC6DB;
   color:  #434343;
@@ -5,6 +7,7 @@ body{
   font-weight: 300;
 
 }
+
 button{
   background-color: #121212;
   color: #FDFCF9;
@@ -46,6 +49,7 @@ height: 100%;
     font-size: 48px;
     line-height: 0px;
     font-weight: 500;
+
 }
 
 .knapbb, .knapta, .knapstor {
