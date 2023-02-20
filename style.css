@@ -1,10 +1,21 @@
+* {
+    margin: 0;
+}
+
 body{
+    display: flex;
+    flex-direction: column;
   background-color: #FAC6DB;
   color:  #434343;
   font-family: Coolvetica, sans-serif;
   font-weight: 300;
 
 }
+
+h4 {
+    font-size: 28;
+}
+
 button{
   background-color: #121212;
   color: #FDFCF9;
@@ -16,6 +27,7 @@ header {
     display: flex;
     height: 113px;
     flex-direction: column;
+    margin: 0px;
 }
 
 .headerTop {
@@ -46,6 +58,7 @@ height: 100%;
     font-size: 48px;
     line-height: 0px;
     font-weight: 500;
+
 }
 
 .knapbb, .knapta, .knapstor {
