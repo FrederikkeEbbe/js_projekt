@@ -191,9 +191,9 @@ footer * p {
   display: flex;
   justify-content: space-between;
 }
-
 .fodlink {
   color: #FDFCF9;
+  padding: 0px 3px;
 }
 .fodlink:visited {
   color: #FDFCF9;
@@ -224,16 +224,21 @@ hr {
   border-radius: 50px;
   border-color: #FDFCF9;
 }
-
 .nyhedsbrev {
   font-size: 18px;
 }
-
 .findos-flex, .flex-nyhed {
   display: flex;
   justify-content: space-between;
 }
-
 .højreallign * {
   text-align: end;
+}
+.flex-logo {
+  display: flex;
+  justify-content: space-between;
+}
+.logofod {
+  font-size: 20px;
+  font-weight: bold;
 }
