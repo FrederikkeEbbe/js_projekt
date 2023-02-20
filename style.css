@@ -44,11 +44,14 @@ header {
 }
 
 .headerBund > div {
+    display: flex;
 width: 100%;
 height: 100%;
     border-width: 0.2px;
     border-color: black;
     border-style: solid;
+justify-content: center;
+align-items: center;
 }
 
 /*Signe */
