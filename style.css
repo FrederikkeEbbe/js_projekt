@@ -13,6 +13,20 @@ button{
 
 /*Signe */
 
+.titel {
+    font-family: Coolvetica, sans-serif;
+    font-size: 48px;
+    line-height: 0px;
+}
+
+.knap1 {
+    display: inline-block;
+}
+
+.knapper {
+    height: 48px;
+}
+
 
 
 /*Daniel*/
