@@ -171,6 +171,56 @@ h1 {
   font-size: 16px;
 }
 
+/*Section Signe*/
+
+h3 {
+  margin-top: 60px;
+  font-size: 26px;
+  margin-left: 20px;
+}
+
+.findos1 {
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+.textdeco {
+  text-decoration: underline;
+}
+
+.aabning {
+  margin-left: 20px;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 500;
+}
+
+.aabningstider {
+  font-size: 16px;
+  text-align: end;
+  line-height: 25px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.aabning-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.telefon-flex {
+
+}
+
+.telefon {
+
+}
+
+.telefontider {
+  
+}
+
 
 /*Febbe*/
 footer {
