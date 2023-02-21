@@ -64,10 +64,21 @@ font-size: 13px;
 nav {
   display: flex;
   gap: 20px;
+  border-bottom: solid;
+  border-width: 0.1px;
+  align-items: center;
+  height: 59px;
 }
 
 nav > div {
   margin-left: 20px;
+}
+
+.navTekst {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 /*Signe */
@@ -87,7 +98,7 @@ h1 {
     justify-content: space-around;
 }
 
-.knapbb, .knapta, #sprogValg{
+.knapbb, .knapta, #sprogValg, .navKnap{
     display: flex;
     width: 43%;
     border-radius: 50px;
@@ -106,6 +117,16 @@ h1 {
   width: 70px;
   height: 34px;
   margin: 0;
+}
+
+.navKnap {
+  border: solid;
+  border-width: thin;
+  border-radius: 50px;
+  width: 34px;
+  height: 34px;
+  margin: 0;
+  margin-left: 20px;
 }
 
 .knapbb {
@@ -223,6 +244,43 @@ h3 {
   justify-content: space-between;
   margin-right: 20px;
   margin-bottom: 40px;
+}
+
+#ur {
+  width: 220px;
+  height: 220px;
+  position: relative;
+  border: solid;
+  border-color: #434343;
+  border-radius: 50%;
+  border-width: 5px;
+}
+
+#timeur, #minutterur, #sekunderur {
+  position: absolute;
+  transform-origin: bottom;
+  border-radius: 7px;
+  opacity: 1;
+  background-color: #434343;
+}
+
+#timeur {
+  width: 5px;
+  height: 70px;
+  top: 50px;
+  left: 110px;
+}
+#minutterur {
+  width: 3px;
+  height: 90px;
+  top: 30px;
+  left: 110px;
+}
+#sekunderur {
+  width: 2px;
+  height: 95px;
+  top: 25px;
+  left: 110px;
 }
 
 
