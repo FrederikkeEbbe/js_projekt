@@ -15,9 +15,9 @@
 
 let dato, timer, minutter, sekunder, timeRotation;
 
-t = document.getElementById("timeur");
-m = document.getElementById("minutterur");
-s = document.getElementById("sekunderur");
+let t = document.getElementById("timeur");
+let m = document.getElementById("minutterur");
+let s = document.getElementById("sekunderur");
 
 function urTid() {
     dato = new Date();
