@@ -82,7 +82,7 @@ h1 {
     justify-content: space-around;
 }
 
-.knapbb, .knapta {
+.knapbb, .knapta, #sprogValg{
     display: flex;
     width: 43%;
     border-radius: 50px;
@@ -92,6 +92,12 @@ h1 {
     font-size: 12px;
     margin-top: 20px;
     font-weight: bold;
+}
+
+#sprogValg {
+  background-color: aqua;
+  width: 70px;
+  height: 34px;
 }
 
 .knapbb {
