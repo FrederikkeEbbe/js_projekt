@@ -246,6 +246,43 @@ h3 {
   margin-bottom: 40px;
 }
 
+#ur {
+  width: 220px;
+  height: 220px;
+  position: relative;
+  border: solid;
+  border-color: #434343;
+  border-radius: 50%;
+  border-width: 5px;
+}
+
+#timeur, #minutterur, #sekunderur {
+  position: absolute;
+  transform-origin: bottom;
+  border-radius: 7px;
+  opacity: 1;
+  background-color: #434343;
+}
+
+#timeur {
+  width: 5px;
+  height: 70px;
+  top: 50px;
+  left: 110px;
+}
+#minutterur {
+  width: 3px;
+  height: 90px;
+  top: 30px;
+  left: 110px;
+}
+#sekunderur {
+  width: 2px;
+  height: 95px;
+  top: 25px;
+  left: 110px;
+}
+
 
 /*Febbe*/
 /* footer */
