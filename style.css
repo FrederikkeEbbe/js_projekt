@@ -386,7 +386,8 @@ hr {
   width: 34px;
   height: 34px;
   cursor: pointer;
-
+  z-index: 99;
+  margin-right: 10px;
   appearance: none;
   background: none;
   outline: none;
