@@ -1,11 +1,12 @@
 //Burger menu - Ebbe
 window.onload = function () {
+	const menu_btn = document.querySelector('.hbmenu');
+	const mobile_menu = document.querySelector('.mobile-nav');
 
-  const menu_knp = document.querySelector('.hbmenu');
-
-  menu_knp.addEventListener('klik', function () {
-    menu_knp.classList.toggle('aktivnu');
-  });
+	menu_btn.addEventListener('click', function () {
+		menu_btn.classList.toggle('er-aktiv');
+		mobile_menu.classList.toggle('er-aktiv');
+	});
 }
 
 //Menukort
