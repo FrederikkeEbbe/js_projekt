@@ -35,6 +35,11 @@ header {
     display: flex;
     height: 67px;
     width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    gap: 10px;
+    
 }
 
 .headerBund {
@@ -95,9 +100,12 @@ h1 {
 }
 
 #sprogValg {
-  background-color: aqua;
+  border: solid;
+  border-width: thin;
+  border-radius: 50px;
   width: 70px;
   height: 34px;
+  margin: 0;
 }
 
 .knapbb {
