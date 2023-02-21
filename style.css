@@ -377,7 +377,8 @@ hr {
   width: 34px;
   height: 34px;
   cursor: pointer;
-
+  z-index: 99;
+  margin-right: 10px;
   appearance: none;
   background: none;
   outline: none;
@@ -407,6 +408,7 @@ hr {
   opacity: 0;
 }
 
+/* slide til side bar*/
 .mobil-nav {
 	position: fixed;
 	top: 0;
@@ -416,8 +418,7 @@ hr {
 	display: block;
 	z-index: 98;
 	background-color: #FDFCF9;
-	padding-top: 30px;
-  padding-left: 10px;
+	padding: 30px 10px 0px;
 	transition: 0.4s;
 }
 
@@ -438,6 +439,7 @@ hr {
 	color: #434343;
 }
 
+/*ændring af tekst i nav*/
 .bm-top-text a {
   font-size: 55px;
   font-weight: 500;
@@ -455,8 +457,12 @@ hr {
   color: #777777;
 }
 
+.bm-bund-text a:hover {
+  color: #777777;
+}
+
 .bm-bund-text {
-  padding: 70px 0px 30px;
+  padding: 80px 0px 70px;
 }
 
 .bm-social {
@@ -464,47 +470,48 @@ hr {
 }
 
 .toplink {
-  padding: 0px 5px;
+  padding: 0px 9px;
 }
 
+/*knapper ind til videre + flex af bund i bm*/
+.bm-knp-virk {
+  border: solid #434343;
+  border-radius: 50px;
+  width: 90px;
+  height: 15px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.bm-knp-sprog {
+  display: flex;
+  border: solid #434343;
+  border-radius: 50px;
+  width: 70px;
+  height: 30px;
+  font-size: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* flex bund af bm*/
+.flex-bm-bund{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin: 0px 30px 0px 20px;
+}
 
 /*Signe media*/
 
 @media only screen and (min-width: 1080px) {
-  #h3find {
-    margin-top: 60px;
-    margin-left: 350px;
-  }
 
-  #h3aabne {
-    display: flex;
-    justify-content: space-between;
-    margin-right: 20px;
-  } 
-
-
-  .findos1 {
-    margin-left: 350px;
-    margin-top: 20px;
+  .unleashindertekst {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
   }
   
-  #ur {
-    margin-left: 350px;
-    margin-top: 10px;
-  }
-  
-  #timeur, #minutterur, #sekunderur {
-    position: absolute;
-    transform-origin: bottom;
-    border-radius: 7px;
-    opacity: 1;
-    background-color: #434343;
-  }
-  
-  #tekstur {
-    margin-top: 70px;
-    margin-left: 415px;
-    text-align:left;
-  }
   
 }
