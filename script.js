@@ -19,7 +19,6 @@ window.onload = function () {
 
 //Ur - Signe
 //Tutorial af Adam Khoury
-
 let dato, timer, minutter, sekunder, timeRotation;
 
 let t = document.getElementById("timeur");
@@ -41,7 +40,24 @@ window.addEventListener("load", function(){
     setInterval(urTid, 1000);
 });
 
+let hello = ["Godmorgen!", "God dag!", "God aften!"];
 
+let dato2, time, helloText;
 
+dato2 = new Date();
+time = dato2.getHours();
+helloText = document.getElementById("tekstur");
 
+if(time <= 12) {
+    helloText.innerHTML = hello[0];
+    console.log(hello[0]);
+}
+else if (time > 12 && time >= 17) {
+    helloText.innerHTML = hello[1];
+    console.log(hello[1]);
+}
+else if (time > 17 && time >= 02) {
+    helloText.innerHTML = hello[2];
+    console.log(hello[2]);
+}
 
