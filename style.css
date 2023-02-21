@@ -256,7 +256,7 @@ h3 {
   border-width: 5px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 80px;
+  margin-top: 30px;
 }
 
 #timeur, #minutterur, #sekunderur {
@@ -286,6 +286,12 @@ h3 {
   left: 110px;
 }
 
+#tekstur {
+  color: #434343;
+  font-size: 20px;
+  margin-top: 30px;
+  text-align: center;
+}
 
 /*Febbe*/
 /* footer */
