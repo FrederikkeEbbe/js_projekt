@@ -416,7 +416,7 @@ hr {
   opacity: 0;
 }
 
-<<<<<<< HEAD
+
 
 @media only screen and (min-width: 1080px) {
 
@@ -433,9 +433,7 @@ hr {
     margin-right: 20px;
   }
 
-  #h3telefon {
-
-  }
+ 
 
 
   .findos1 {
@@ -463,7 +461,7 @@ hr {
   }
   
 }
-=======
+
 .mobil-nav {
 	position: fixed;
 	top: 0;
@@ -523,4 +521,3 @@ hr {
 .toplink {
   padding: 0px 5px;
 }
->>>>>>> d25e6f67ab974d5a0b9dcb0bedaa235413dd51a5
