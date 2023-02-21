@@ -416,3 +416,49 @@ hr {
   opacity: 0;
 }
 
+
+@media only screen and (min-width: 1080px) {
+
+  /*Signe section find os mm*/
+  #h3find {
+    margin-top: 60px;
+    margin-left: 350px;
+  }
+
+  #h3aabne {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 20px;
+  }
+
+  #h3telefon {
+
+  }
+
+
+  .findos1 {
+    margin-left: 350px;
+    margin-top: 20px;
+  }
+  
+  #ur {
+    margin-left: 350px;
+    margin-top: 10px;
+  }
+  
+  #timeur, #minutterur, #sekunderur {
+    position: absolute;
+    transform-origin: bottom;
+    border-radius: 7px;
+    opacity: 1;
+    background-color: #434343;
+  }
+  
+  #tekstur {
+    margin-top: 70px;
+    margin-left: 415px;
+    text-align:left;
+  }
+  
+}
