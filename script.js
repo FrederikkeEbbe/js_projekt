@@ -63,7 +63,7 @@ window.addEventListener("load", function(){
 });
 
 //Besked over ur
-let hello = ["Godmorgen!", "God dag!", "God aften!"];
+let hello = ["Godmorgen!", "Goddag!", "Godaften!"];
 
 let dato2, time, helloText;
 
