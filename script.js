@@ -15,8 +15,29 @@ window.onload = function () {
 //Billede galleri
 
 
-//Knapper 
+// ----- Sprogvælger -----
 
+select_element = document.getElementById("langSelect");
+let sprog = ["DK", "EN", "DE",];
+
+
+// Udvider option-boks baseret på antal sprog i array'et
+for (let i=0; i < sprog.length; i++) {
+let opt = sprog[i];
+select_element.innerHTML += "<option value=\" "+ opt +"\">"+ opt + "</option";
+}
+
+//
+document.getElementById("langSelect").onchange = function(){
+if (document.getElementById("langSelect").value == ' DK')
+location.replace('index.html');
+else if (document.getElementById("langSelect").value == ' EN')
+location.replace('indexEn.html');
+else
+location.replace('indexDe.html')
+}
+
+document.getElementById("langSelect").selectedIndex = 1;
 
 //Ur - Signe
 //Tutorial af Adam Khoury
