@@ -514,12 +514,52 @@ hr {
 /*Signe media*/
 
 @media only screen and (min-width: 1080px) {
-
-  .unleashindertekst {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+  h1 {
+    font-size: 70px;
+    line-height: 60px;
+    margin-left: 200px;
   }
-  
-  
+
+  #crustbillede {
+    margin-top: 20px;
+    max-width: 100%;
+    height: 525px;
+}
+
+.knapbb, .knapta {
+  width: 20%;
+}
+
+.knapbb {
+  margin-left: 350px;
+}
+.knapta {
+  margin-left: -350px;
+}
+
+.unleashindertekst {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+}
+
+.knapstor {
+  width: 20%;
+  margin-top: 70px;
+}
+
+.toknapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+#knapmenu {
+  margin-left: 350px;
+}
+
+#knapvisit {
+  margin-top: 70px;
+  margin-left: -350px;
+}
 }
