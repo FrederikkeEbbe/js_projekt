@@ -110,15 +110,6 @@ h1 {
     font-weight: bold;
 }
 
-#sprogValg {
-  border: solid;
-  border-width: thin;
-  border-radius: 50px;
-  width: 70px;
-  height: 34px;
-  margin: 0;
-}
-
 .navKnap {
   border: solid;
   border-width: thin;
