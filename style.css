@@ -110,15 +110,6 @@ h1 {
     font-weight: bold;
 }
 
-#sprogValg {
-  border: solid;
-  border-width: thin;
-  border-radius: 50px;
-  width: 70px;
-  height: 34px;
-  margin: 0;
-}
-
 .navKnap {
   border: solid;
   border-width: thin;
@@ -386,7 +377,8 @@ hr {
   width: 34px;
   height: 34px;
   cursor: pointer;
-
+  z-index: 99;
+  margin-right: 10px;
   appearance: none;
   background: none;
   outline: none;
@@ -510,6 +502,9 @@ hr {
   align-items: center;
   margin: 0px 30px 0px 20px;
 }
+
+/*text der slider op*/
+
 
 /*Signe media*/
 
