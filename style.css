@@ -313,3 +313,9 @@ hr {
 }
 
 /* burger menu*/
+.hbmenu {
+  display: block;
+  width: 34px;
+  height: 34px;
+  cursor: pointer;
+}
