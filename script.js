@@ -62,6 +62,7 @@ window.addEventListener("load", function(){
     setInterval(urTid, 1000);
 });
 
+//Besked over ur
 let hello = ["Godmorgen!", "God dag!", "God aften!"];
 
 let dato2, time, helloText;

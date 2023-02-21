@@ -153,14 +153,16 @@ h1 {
     border-width: thin;
     border-radius: 50px;
     border-color: #121212;
-    margin-top: 30px;
+    margin-top: 15px;
     font-size: 12px;
     font-weight: bold;
 }
 
-#knapvisit {
-    margin-top: 60px;
+#knapmenu {
+  margin-bottom: 70px;
+  margin-top: 30px;
 }
+
 
 
 
@@ -532,13 +534,6 @@ hr {
   margin-left: -350px;
 }
 
-.unleashindertekst {
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 70px;
-}
-
 .knapstor {
   width: 20%;
   margin-top: 70px;
@@ -547,14 +542,33 @@ hr {
 .toknapper {
   display: flex;
   justify-content: space-around;
-}
-
-#knapmenu {
-  margin-left: 350px;
+  margin-top: -100px;
 }
 
 #knapvisit {
-  margin-top: 70px;
-  margin-left: -350px;
+  width: 250px;
+  margin-left: 10px;
 }
+
+#knapbook {
+  width: 110px;
+  margin-left: 370px;
+}
+
+#knapgk {
+  width: 110px;
+  margin-right: 370px;
+}
+
+.overskrift h2{
+  font-size: 80px;
+}
+
+.unleashindertekst {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+}
+
 }
