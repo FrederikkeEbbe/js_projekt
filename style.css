@@ -399,14 +399,73 @@ hr {
 }
 /*aktivering af hb menu*/
 .hbmenu.aktivnu:before {
-  transform: rotate(-45deg) translate(-8px, 6px);
+  transform: rotate(-45deg) translate(-3px, 4px);
 }
 
 .hbmenu.aktivnu:after {
-  transform: rotate(45deg) translate(-9px, -8px);
+  transform: rotate(45deg) translate(-3px, -3px);
 }
 
 .hbmenu.aktivnu .bar{
   opacity: 0;
 }
 
+.mobil-nav {
+	position: fixed;
+	top: 0;
+	left: 100%;
+	width: 100%;
+	min-height: 100vh;
+	display: block;
+	z-index: 98;
+	background-color: #FDFCF9;
+	padding-top: 30px;
+  padding-left: 10px;
+	transition: 0.4s;
+}
+
+.mobil-nav.aktivnu {
+	left: 0;
+}
+
+.mobil-nav a {
+	display: block;
+	max-width: 600px;
+	text-align: left;
+	background-color: #FDFCF9;
+	color: #121212;
+	text-decoration: none;
+}
+
+.mobil-nav a:hover {
+	color: #434343;
+}
+
+.bm-top-text a {
+  font-size: 55px;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+}
+
+.bm-top-text {
+  padding: 40px 0px 100px;
+}
+
+.bm-bund-text a {
+  font-size: 35px;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  color: #777777;
+}
+
+.bm-bund-text {
+  padding: 70px 0px 30px;
+}
+
+.bm-social {
+  display: flex;
+}
+
+.toplink {
+  padding: 0px 5px;
+}
