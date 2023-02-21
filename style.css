@@ -67,6 +67,7 @@ nav {
   border-bottom: solid;
   border-width: 0.1px;
   align-items: center;
+  height: 59px;
 }
 
 nav > div {
