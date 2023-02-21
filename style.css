@@ -64,10 +64,20 @@ font-size: 13px;
 nav {
   display: flex;
   gap: 20px;
+  border-bottom: solid;
+  border-width: 0.1px;
+  align-items: center;
 }
 
 nav > div {
   margin-left: 20px;
+}
+
+.navTekst {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 /*Signe */
@@ -87,7 +97,7 @@ h1 {
     justify-content: space-around;
 }
 
-.knapbb, .knapta, #sprogValg{
+.knapbb, .knapta, #sprogValg, .navKnap{
     display: flex;
     width: 43%;
     border-radius: 50px;
@@ -106,6 +116,16 @@ h1 {
   width: 70px;
   height: 34px;
   margin: 0;
+}
+
+.navKnap {
+  border: solid;
+  border-width: thin;
+  border-radius: 50px;
+  width: 34px;
+  height: 34px;
+  margin: 0;
+  margin-left: 20px;
 }
 
 .knapbb {
