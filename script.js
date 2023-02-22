@@ -9,6 +9,17 @@ window.onload = function () {
 	});
 }
 
+//Gavekort funktion
+function () {
+  var ? = parseFloat(document.getElementById("?").value);
+
+  var plusEnOC;
+    if (operator == "+") 
+    plusEnFelt = ? + 100;
+  document.getElementById("?").value = ?;
+  
+}
+  
 //Menukort
 
 
