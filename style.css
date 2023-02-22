@@ -108,6 +108,7 @@ h1 {
     font-size: 12px;
     margin-top: 20px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .navKnap {
@@ -156,6 +157,7 @@ h1 {
     margin-top: 15px;
     font-size: 12px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 #knapmenu {
@@ -261,13 +263,13 @@ h3 {
 }
 
 #timeur {
-  width: 5px;
+  width: 4px;
   height: 70px;
-  top: 45px;
-  left: 110px;
+  top: 46px;
+  left: 109px;
 }
 #minutterur {
-  width: 3px;
+  width: 4px;
   height: 85px;
   top: 30px;
   left: 110px;
@@ -593,7 +595,7 @@ hr {
 }
 
 .knapstor {
-  width: 20%;
+  width: 19.5%;
   margin-top: 70px;
 }
 
