@@ -207,7 +207,7 @@ h3 {
   margin-left: 20px;
 }
 
-.findos1 {
+#findos1 {
   margin-left: 20px;
   font-size: 16px;
   line-height: 25px;
@@ -263,19 +263,19 @@ h3 {
 #timeur {
   width: 5px;
   height: 70px;
-  top: 50px;
+  top: 45px;
   left: 110px;
 }
 #minutterur {
   width: 3px;
   height: 85px;
-  top: 35px;
+  top: 30px;
   left: 110px;
 }
 #sekunderur {
   width: 2px;
   height: 95px;
-  top: 25px;
+  top: 20px;
   left: 110px;
 }
 
@@ -618,7 +618,50 @@ hr {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 70px;
+  margin-top: 0px;
 }
+
+h3 {
+  font-size: 35px;
+}
+
+.flexboxbund {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#helefindos {
+  order: 1;
+  margin-left: 350px;
+}
+
+#heleur {
+  order: 3;
+  margin-left: 370px;
+  margin-bottom: 70px;
+}
+
+#heleaabning {
+  order: 2;
+  margin-left: 200px;
+  word-spacing: 4px;
+}
+
+#heletelefon {
+  order: 4;
+  margin-left: 122px;
+  word-spacing: 4px;
+}
+
+.aabningstider {
+  margin-left: 10px;
+}
+
+.telefontider {
+  margin-left: 10px;
+}
+
+
+
 
 }
