@@ -507,6 +507,56 @@ hr {
 
 /*text der slider op*/
 
+/*Gavekorts del*/
+.gavekort {
+  position: relative;
+}
+
+
+.gk-child {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0px 20px;
+}
+
+.gk-back {
+  height: 821px;
+  width: 100%;
+  object-fit: cover;
+  filter: blur(1px) brightness(50%);
+}
+
+.gk-titel {
+  color: #FDFCF9;
+  font-size: 50px;
+  margin: 10px 0px;
+}
+
+.gk-p {
+  color: #FDFCF9;
+  margin: 10px 0px;
+}
+
+
+.gk-knap {
+  background: none;
+  height: 50px;
+  width: 50px;
+  border: solid #FDFCF9;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.gk-bestil {
+  background: none;
+  border: solid #FDFCF9;
+  border-radius: 50px;
+  height: 50px;
+  min-width: 250px;
+  font-size: 11px;
+  cursor: pointer;
+}
 
 /*Signe media*/
 
