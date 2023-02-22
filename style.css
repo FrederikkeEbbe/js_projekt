@@ -24,6 +24,23 @@ button{
 
 /* Asger */
 
+select {
+  appearance: none;
+  background-color: transparent;
+  margin: 0;
+  width: 70px;
+  font-size: 10px;
+  font-weight: 700;
+  cursor: inherit;
+  line-height: inherit;
+  border-width: thin;
+  border-color: #121212;
+  border-radius: 50px;
+  text-align: center;
+  height: 34px;
+  display: grid;
+}
+
 header {
     display: flex;
     height: 113px;
