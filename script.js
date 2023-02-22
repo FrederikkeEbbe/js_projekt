@@ -8,7 +8,18 @@ window.onload = function () {
 		mobil_menu.classList.toggle('aktivnu');
 	});
 }
+/*
+//Gavekort funktion
+function () {
+  var ? = parseFloat(document.getElementById("?").value);
 
+  var plusEnOC;
+    if (operator == "+") 
+    plusEnFelt = ? + 100;
+  document.getElementById("?").value = ?;
+  
+}
+ */ 
 //Menukort
 
 
