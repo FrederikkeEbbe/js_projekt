@@ -79,7 +79,7 @@ else if (time > 11 && time <= 17) {
     helloText.innerHTML = hello[1];
     console.log(hello[1]);
 }
-else if (time > 17 && time <= 02) {
+else if (time > 17 && time <= 24) {
     helloText.innerHTML = hello[2];
     console.log(hello[2]);
 }
