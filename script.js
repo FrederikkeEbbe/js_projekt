@@ -39,7 +39,14 @@ location.replace('indexDe.html')
 
 document.getElementById("langSelect").selectedIndex = 1;
 
-//Ur - Signe
+//Find os - Signe
+let findOsArray = ["Slotsgade 26a", "5000 Odense", "Telefon: +45 38 42 55", "odense@frankiepizza.dk", "CVR 42519790", "Kontrolrapport"];
+
+for(let i=0; i < findOsArray.length; i++) {
+    document.getElementById("findos1").innerHTML += findOsArray[i] + "<br>";
+}
+
+//UR - Signe
 //Tutorial af Adam Khoury
 let dato, timer, minutter, sekunder, timeRotation;
 
@@ -70,6 +77,7 @@ let dato2, time, helloText;
 dato2 = new Date();
 time = dato2.getHours();
 helloText = document.getElementById("tekstur");
+
 
 if(time <= 11) {
     helloText.innerHTML = hello[0];
