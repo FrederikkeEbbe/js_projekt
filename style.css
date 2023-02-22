@@ -108,6 +108,7 @@ h1 {
     font-size: 12px;
     margin-top: 20px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .navKnap {
@@ -156,6 +157,7 @@ h1 {
     margin-top: 15px;
     font-size: 12px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 #knapmenu {
