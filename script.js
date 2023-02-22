@@ -8,18 +8,22 @@ window.onload = function () {
 		mobil_menu.classList.toggle('aktivnu');
 	});
 }
-/*
-//Gavekort funktion
-function () {
-  var ? = parseFloat(document.getElementById("?").value);
 
-  var plusEnOC;
-    if (operator == "+") 
-    plusEnFelt = ? + 100;
-  document.getElementById("?").value = ?;
-  
+//Gavekort funktion
+function plus() {
+  let valueGk = parseFloat(document.getElementById("vaerdi").innerHTML);
+
+  document.getElementById("vaerdi").innerHTML = valueGk + 100 + ',-';
+  console.log(valueGk);
 }
- */ 
+
+
+function minus() {
+    let valueGk = parseFloat(document.getElementById("vaerdi").innerHTML);
+  
+    document.getElementById("vaerdi").innerHTML = valueGk - 100 + ',-';
+    console.log(valueGk);
+  }
 //Menukort
 
 

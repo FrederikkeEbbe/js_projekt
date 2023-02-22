@@ -512,7 +512,6 @@ hr {
   position: relative;
 }
 
-
 .gk-child {
   position: absolute;
   top: 50%;
@@ -556,6 +555,15 @@ hr {
   min-width: 250px;
   font-size: 11px;
   cursor: pointer;
+}
+
+.tal-værdi {
+  -webkit-text-stroke: 2px #FDFCF9;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  font-size: 90px;
+  font-weight: bold;
+  letter-spacing: 5px; 
 }
 
 /*Signe media*/
