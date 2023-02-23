@@ -53,10 +53,10 @@ let sprog = ["DK", "EN", "DE",];
 // Udvider option-boks baseret på antal sprog i array'et
 for (let i=0; i < sprog.length; i++) {
 let opt = sprog[i];
-select_element.innerHTML += "<option value=\" "+ opt +"\">"+ opt + "</option";
+select_element.innerHTML += "<option value=\" "+ opt +"\">"+ opt + "</option>";
 }
 
-//
+//Denne boolean tjekker hvilket sprog der er valgt i selectboksen, og viderdirigerer derefter brugeren
 document.getElementById("langSelect").onchange = function(){
 if (document.getElementById("langSelect").value == ' DK')
 location.replace('index.html');
@@ -69,8 +69,10 @@ location.replace('indexDe.html')
 document.getElementById("langSelect").selectedIndex = 1;
 
 //Find os - Signe
+//array over punkter i find os
 let findOsArray = ["<a href=''>Slotsgade 26a</a>", "5000 Odense", "Telefon: <a href=''>+45 38 42 55 </a>", "<a href=''>odense@frankiepizza.dk</a>", "CVR 42519790", "<a href=''>Kontrolrapport</a>"];
 
+//for loop som printer hele arrayet
 for(let i=0; i < findOsArray.length; i++) {
     document.getElementById("findos1").innerHTML += findOsArray[i] + "<br>";
 }
@@ -78,12 +80,17 @@ for(let i=0; i < findOsArray.length; i++) {
 
 //UR - Signe
 //Tutorial af Adam Khoury
+
+//variabler
 let dato, timer, minutter, sekunder, timeRotation;
 
+//sætter værdi på variablerne
 let t = document.getElementById("timeur");
 let m = document.getElementById("minutterur");
 let s = document.getElementById("sekunderur");
 
+//funktion til uret, tager datoen, timer, minutter og sekunder
+//og sætter rotationen for de forskellige visere
 function urTid() {
     dato = new Date();
     timer = dato.getHours();
@@ -95,20 +102,27 @@ function urTid() {
     s.style.transform = "rotate("+sekunder*6+"deg)";
 }
 
+//kalder funktionen hvert sekund
 window.addEventListener("load", function(){
     setInterval(urTid, 1000);
 });
 
 //Besked over ur
+
+//array over beskeder over ur
 let hello = ["Godmorgen!", "Goddag!", "Godaften!"];
 
+//variabler
 let dato2, time, helloText;
 
+//sætter værdi på variablerne
 dato2 = new Date();
 time = dato2.getHours();
 helloText = document.getElementById("tekstur");
 
-
+//if statement -> hvis klokken er under eller lig med 11 skriv "Godmorgen!"
+//hvis klokken er over 11 og under eller lig med 17 så skriv "Goddag!"
+//hvis klokken er under 17 og under eller lig med 24 så skriv "Godaften!"
 if(time <= 11) {
     helloText.innerHTML = hello[0];
     console.log(hello[0]);
