@@ -42,7 +42,7 @@ let opt = sprog[i];
 select_element.innerHTML += "<option value=\" "+ opt +"\">"+ opt + "</option";
 }
 
-//
+//Denne boolean tjekker hvilket sprog der er valgt i selectboksen, og viderdirigerer derefter brugeren
 document.getElementById("langSelect").onchange = function(){
 if (document.getElementById("langSelect").value == ' DK')
 location.replace('index.html');
