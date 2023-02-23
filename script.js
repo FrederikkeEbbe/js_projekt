@@ -55,8 +55,10 @@ location.replace('indexDe.html')
 document.getElementById("langSelect").selectedIndex = 1;
 
 //Find os - Signe
+//array over punkter i find os
 let findOsArray = ["<a href=''>Slotsgade 26a</a>", "5000 Odense", "Telefon: <a href=''>+45 38 42 55 </a>", "<a href=''>odense@frankiepizza.dk</a>", "CVR 42519790", "<a href=''>Kontrolrapport</a>"];
 
+//for loop som printer hele arrayet
 for(let i=0; i < findOsArray.length; i++) {
     document.getElementById("findos1").innerHTML += findOsArray[i] + "<br>";
 }
