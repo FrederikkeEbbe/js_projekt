@@ -1,4 +1,4 @@
-//Burger menu - Ebbe
+//Burger menu
 window.onload = function () {
 	const menu_btn = document.querySelector('.hbmenu');
 	const mobil_menu = document.querySelector('.mobil-nav');
@@ -22,8 +22,6 @@ function plus() {
     plusKnap.disabled = false;
   }
 }
-
-
 function minus() {
     let valueGk = parseFloat(document.getElementById("vaerdi").innerHTML);
 
