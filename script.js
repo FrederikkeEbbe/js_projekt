@@ -64,12 +64,17 @@ for(let i=0; i < findOsArray.length; i++) {
 
 //UR - Signe
 //Tutorial af Adam Khoury
+
+//variabler
 let dato, timer, minutter, sekunder, timeRotation;
 
+//sætter værdi på variablerne
 let t = document.getElementById("timeur");
 let m = document.getElementById("minutterur");
 let s = document.getElementById("sekunderur");
 
+//funktion til uret, tager datoen, timer, minutter og sekunder
+//og sætter rotationen for de forskellige visere
 function urTid() {
     dato = new Date();
     timer = dato.getHours();
@@ -81,20 +86,27 @@ function urTid() {
     s.style.transform = "rotate("+sekunder*6+"deg)";
 }
 
+//kalder funktionen hvert sekund
 window.addEventListener("load", function(){
     setInterval(urTid, 1000);
 });
 
 //Besked over ur
+
+//array over beskeder over ur
 let hello = ["Godmorgen!", "Goddag!", "Godaften!"];
 
+//variabler
 let dato2, time, helloText;
 
+//sætter værdi på variablerne
 dato2 = new Date();
 time = dato2.getHours();
 helloText = document.getElementById("tekstur");
 
-
+//if statement -> hvis klokken er under eller lig med 11 skriv "Godmorgen!"
+//hvis klokken er over 11 og under eller lig med 17 så skriv "Goddag!"
+//hvis klokken er under 17 og under eller lig med 24 så skriv "Godaften!"
 if(time <= 11) {
     helloText.innerHTML = hello[0];
     console.log(hello[0]);
