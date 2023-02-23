@@ -317,6 +317,14 @@ footer * p {
   letter-spacing: 1.5px;
 }
 
+.flex-linje * p {
+  cursor: pointer;
+}
+
+.flex-linje * p:hover{
+  text-decoration: underline;
+}
+
 /* generelle ændringer af footer baggrund*/
 .sortbund {
   padding: 30px;
@@ -367,6 +375,11 @@ hr {
   border-width: thin;
   border-radius: 50px;
   border-color: #FDFCF9;
+  cursor: pointer;
+}
+
+.knapfoot:hover {
+  border-width: 2px;
 }
 
 /* overskrift nyhedsbrev */ 
@@ -588,6 +601,32 @@ hr {
 .flex-værdi {
   display: flex;
 }
+
+/* media footer ændringer*/
+@media only screen and (min-width: 770px) {
+  .logofod {
+    font-size: 65px;
+  }
+  hr {
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+  }
+
+  .sortbund,  .graabund {
+    padding-left: 140px;
+    padding-right: 140px;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  .sortbund, .graabund {
+    padding-left: 210px;
+    padding-right: 210px;
+  }
+}
+  
 
 /*Signe media*/
 
