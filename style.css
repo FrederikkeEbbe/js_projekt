@@ -717,6 +717,23 @@ hr {
     padding-left: 210px;
     padding-right: 210px;
   }
+  .gk-child { 
+    display: flex;
+    align-items: baseline;
+  }
+  .flex-værdi * {
+    font-size: 170px;
+  }
+  
+  .gk-knp-con {
+    padding-left: 100px;
+  }
+
+  .gk-txt-con {
+    padding-left: 130px;
+    order: 2;
+  }
+  
 }
   
 
