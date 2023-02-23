@@ -12,18 +12,32 @@ window.onload = function () {
 //Gavekort funktion
 function plus() {
   let valueGk = parseFloat(document.getElementById("vaerdi").innerHTML);
+  const plusKnap = document.getElementById("plusKnp");
 
-  document.getElementById("vaerdi").innerHTML = valueGk + 100 + ',-';
-  console.log(valueGk);
+  document.getElementById("vaerdi").innerHTML = valueGk + 100;
+  if (valueGk + 100 == 2500) {
+    plusKnap.disabled = true;
+  }
+  else {
+    plusKnap.disabled = false;
+  }
 }
 
 
 function minus() {
     let valueGk = parseFloat(document.getElementById("vaerdi").innerHTML);
-  
-    document.getElementById("vaerdi").innerHTML = valueGk - 100 + ',-';
-    console.log(valueGk);
+    const minusKnap = document.getElementById("minusKnp");
+
+
+    document.getElementById("vaerdi").innerHTML = valueGk - 100;
+    if (valueGk - 100 == 100) {
+        minusKnap.disabled = true;
+      }
+    else {
+        minusKnap.disabled = false;
+    }
   }
+
 //Menukort
 
 
