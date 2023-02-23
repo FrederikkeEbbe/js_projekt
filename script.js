@@ -39,7 +39,7 @@ let sprog = ["DK", "EN", "DE",];
 // Udvider option-boks baseret på antal sprog i array'et
 for (let i=0; i < sprog.length; i++) {
 let opt = sprog[i];
-select_element.innerHTML += "<option value=\" "+ opt +"\">"+ opt + "</option";
+select_element.innerHTML += "<option value=\" "+ opt +"\">"+ opt + "</option>";
 }
 
 //Denne boolean tjekker hvilket sprog der er valgt i selectboksen, og viderdirigerer derefter brugeren
