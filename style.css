@@ -677,6 +677,10 @@ hr {
   letter-spacing: 5px;
 }
 
+.flex-værdi {
+  display: flex;
+}
+
 /*Signe media*/
 
 @media only screen and (min-width: 1080px) {

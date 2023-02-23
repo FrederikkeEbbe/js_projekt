@@ -12,9 +12,15 @@ window.onload = function () {
 //Gavekort funktion
 function plus() {
   let valueGk = parseFloat(document.getElementById("vaerdi").innerHTML);
+  const plusKnap = document.getElementById("plusKnp");
 
-  document.getElementById("vaerdi").innerHTML = valueGk + 100 + ',-';
-  console.log(valueGk);
+  document.getElementById("vaerdi").innerHTML = valueGk + 100;
+  if (valueGk + 100 == 2500) {
+    plusKnap.disabled = true;
+  }
+  else {
+    plusKnap.disabled = false;
+  }
 }
 
 
@@ -23,7 +29,19 @@ function minus() {
 
     document.getElementById("vaerdi").innerHTML = valueGk - 100 + ',-';
     console.log(valueGk);
+
+    const minusKnap = document.getElementById("minusKnp");
+
+
+    document.getElementById("vaerdi").innerHTML = valueGk - 100;
+    if (valueGk - 100 == 100) {
+        minusKnap.disabled = true;
+      }
+    else {
+        minusKnap.disabled = false;
+    }
   }
+
 //Menukort
 
 
@@ -65,10 +83,10 @@ let sprog = ["DK", "EN", "DE",];
 // Udvider option-boks baseret på antal sprog i array'et
 for (let i=0; i < sprog.length; i++) {
 let opt = sprog[i];
-select_element.innerHTML += "<option value=\" "+ opt +"\">"+ opt + "</option";
+select_element.innerHTML += "<option value=\" "+ opt +"\">"+ opt + "</option>";
 }
 
-//
+//Denne boolean tjekker hvilket sprog der er valgt i selectboksen, og viderdirigerer derefter brugeren
 document.getElementById("langSelect").onchange = function(){
 if (document.getElementById("langSelect").value == ' DK')
 location.replace('index.html');
@@ -81,8 +99,10 @@ location.replace('indexDe.html')
 document.getElementById("langSelect").selectedIndex = 1;
 
 //Find os - Signe
+//array over punkter i find os
 let findOsArray = ["<a href=''>Slotsgade 26a</a>", "5000 Odense", "Telefon: <a href=''>+45 38 42 55 </a>", "<a href=''>odense@frankiepizza.dk</a>", "CVR 42519790", "<a href=''>Kontrolrapport</a>"];
 
+//for loop som printer hele arrayet
 for(let i=0; i < findOsArray.length; i++) {
     document.getElementById("findos1").innerHTML += findOsArray[i] + "<br>";
 }
