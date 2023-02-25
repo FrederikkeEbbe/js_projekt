@@ -78,23 +78,24 @@ select_element = document.getElementById("langSelect");
 let sprog = ["DK", "EN", "DE",];
 
 
-// Udvider option-boks baseret på antal sprog i array'et
+// Udvider option-boks baseret på antal sprog i array'et og sætter første sprog i array'et som det valgte
 for (let i=0; i < sprog.length; i++) {
-let opt = sprog[i];
-select_element.innerHTML += "<option value=\" "+ opt +"\">"+ opt + "</option>";
+  let opt = sprog[i];
+  if (i==0)
+      select_element.innerHTML += "<option value=\""+ opt +"\" selected>"+ opt + "</option>";
+  else
+      select_element.innerHTML += "<option value=\""+ opt +"\">"+ opt + "</option>";
 }
 
 //Denne boolean tjekker hvilket sprog der er valgt i selectboksen, og viderdirigerer derefter brugeren
 document.getElementById("langSelect").onchange = function(){
-if (document.getElementById("langSelect").value == ' DK')
+if (document.getElementById("langSelect").value == 'DK')
 location.replace('index.html');
-else if (document.getElementById("langSelect").value == ' EN')
+else if (document.getElementById("langSelect").value == 'EN')
 location.replace('indexEn.html');
 else
 location.replace('indexDe.html')
 }
-
-document.getElementById("langSelect").selectedIndex = 1;
 
 //Find os - Signe
 //array over punkter i find os
